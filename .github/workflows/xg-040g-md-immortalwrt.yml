@@ -13,7 +13,7 @@ on:
           - openwrt-25.12-XG-040G-MD
 
 env:
-  REPO_URL: https://github.com/fzs209/immortalwrt.git
+  REPO_URL: https://github.com/stevenwongh/immortalwrt.git
   # REPO_BRANCH 将由 workflow_dispatch 输入动态设置
   DEVICE_TARGET: airoha
   DEVICE_SUBTARGET: an7581
