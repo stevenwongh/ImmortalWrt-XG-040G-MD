@@ -19,7 +19,7 @@ env:
   DEVICE_SUBTARGET: an7581
   CONFIG_FILE: config/xg-040g-md.config
   CACHE_TOOLCHAIN: true
-  UPLOAD_BIN_DIR: false
+  UPLOAD_BIN_DIR: true
   FIRMWARE_RELEASE: true
   TZ: Asia/Shanghai
 
