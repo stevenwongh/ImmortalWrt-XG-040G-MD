@@ -26,6 +26,10 @@ env:
 jobs:
   Build:
     runs-on: ubuntu-latest
+    
+    # 允许 Action 写入仓库内容（创建 Release、Tag、上传固件）
+    permissions:
+      contents: write
 
     steps:
     - name: Check Server Performance(检查服务器性能)
